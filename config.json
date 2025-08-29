@@ -1,0 +1,15 @@
+{
+    "branches_info_start_pattern": "TIMESTAMP_BASE_PATTERN_PLACEHOLDER DEBUG: branches info extended \\(repository=[^\\)]+\\)$",
+    "branches_info_end_pattern": "TIMESTAMP_BASE_PATTERN_PLACEHOLDER DEBUG: .+$",
+    "repository_name_pattern": "\\(repository=([^\\)]+)\\)",
+    "timestamp_base_pattern": "^\\[\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z\\]",
+    "timestamp_base_pattern_placeholder": "TIMESTAMP_BASE_PATTERN_PLACEHOLDER",
+    "timestamp_pattern": "TIMESTAMP_BASE_PATTERN_PLACEHOLDER\\s*",
+    "dry_run_info_pattern_general": "^\\[[^\\]]+\\]\\s+INFO: DRY-RUN: (?P<info>.*) \\(repository=(?P<repository_name>[^,]+), baseBranch=[^,]+, branch=(?P<branch_name>[^\\)]+)\\)",
+    "dry_run_info_pattern_autoclosed": "TIMESTAMP_BASE_PATTERN_PLACEHOLDER\\s+INFO:\\s+DRY-RUN:\\s+Would autoclose PR \\(repository=(?P<repository_name>[^\\)]+)\\)",
+    "dry_run_info_autoclosed_pr_title_line_number": 2,
+    "dry_run_info_autoclosed_pr_title_pattern": "TIMESTAMP_BASE_PATTERN_PLACEHOLDER\\s+\"prTitle\":\\s*\"(?P<pr_title>.+?)\"$",
+    "updated_branch_pattern": "Would update PR #\\d+",
+    "created_branch_pattern": "Would create PR: .+",
+    "commited_files_pattern": "Would commit files to branch \\S+"
+}

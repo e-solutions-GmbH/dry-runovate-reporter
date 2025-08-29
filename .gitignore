@@ -1,0 +1,26 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore HTML reports
+*.html
+*.htm
+
+# Ignore virtual environment
+venv/
+.venv/
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Log files
+*.log
+*.txt
+
+#Gitleaks
+gitleaks.toml
+.pre-commit-config.yaml
+
